@@ -2,18 +2,17 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://eng.pw.edu.pl/'>Warsaw University of Technology</a> <strong>|</strong> <a href='https://www.ibspan.waw.pl/en/home/'>Systems Research Institute, Polish Academy of Sciences</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Contact me at:</p>
+    <p><a href="mailto:piotr.sowinski.dokt@pw.edu.pl">piotr.sowinski.dokt@pw.edu.pl</a></p>
 
-news: true # includes a list of news items
+news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
