@@ -23,7 +23,7 @@ layout: default
       {% if page.last_updated %}, last updated in {{ page.last_updated | date: '%B %d, %Y' }}{% endif %}
       {% if page.meta %}• {{ page.meta }}{% endif %}
     </p>
-    <p class="post-tags">
+    <p class="post-tags mb-0 pb-0">
       {% if url_beginning == '/blog/' %}
         <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}"> <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
       {% else %}
@@ -58,6 +58,9 @@ layout: default
           {% endunless %}
         {% endfor %}
       {% endif %}
+    </p>
+    <p class="mb-4">
+      <a href="/blog/">&lt;~&nbsp;&nbsp;Go back</a>
     </p>
   </header>
 
