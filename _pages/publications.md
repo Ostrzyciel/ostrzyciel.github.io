@@ -25,10 +25,10 @@ nav_order: 2
 
 <!-- all params listed here: https://github.com/inukshuk/jekyll-scholar/blob/main/lib/jekyll/scholar/defaults.rb -->
 
-{% bibliography -f preprints --group_by none %}
+{% bibliography --group_by none --query @*[abbr=arXiv] %}
 
 <h1>Published &amp; in press</h1>
 
-{% bibliography -f papers %}
+{% bibliography --query @*[abbr!=arXiv] %}
 
 </div>

@@ -2,14 +2,14 @@
 layout: page
 title: Projects & software
 permalink: /projects/
-description: TODO
+description: Some of the projects and software I have been working on. The list is incomplete, more projects will be added soon.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: ["Knowledge graphs", Other]
 horizontal: false
 ---
 
-Under construction.
+Check out my GitHub profile for more: **[https://github.com/Ostrzyciel](https://github.com/Ostrzyciel)**
 
 <!-- pages/projects.md -->
 <div class="projects">
