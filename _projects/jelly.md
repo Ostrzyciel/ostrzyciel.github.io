@@ -8,6 +8,7 @@ category: Knowledge graphs
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+- **[Find out more on Jelly's website](https://jelly-rdf.github.io/dev/user-guide/)**
+- GitHub: [https://github.com/Jelly-RDF/jelly-protobuf](https://github.com/Jelly-RDF/jelly-protobuf)
+- A paper on the newest version of Jelly is in preparation. Stay tuned!
+- Paper on an older version of Jelly: {% cite sowinski2022efficient %}
