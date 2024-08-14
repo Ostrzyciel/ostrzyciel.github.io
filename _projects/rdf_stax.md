@@ -21,7 +21,7 @@ related_publications: true
 
 This taxonomy is represented as an RDF vocabulary ([https://w3id.org/stax/ontology](https://w3id.org/stax/ontology)), making it possible to easily reuse it in various applications. It can be used (for example) for annotating published datasets and RDF streams, or for embedding the stream type information in the stream itself, so that the stream processing systems can understand it (interoperability!).
 
-RDF-STaX is being used in **[RiverBench](../riverbench)** to describe and validate the stream types of benchmark datasets. It is also used in **[Jelly](../jelly)** to easily embed metadata about the type of the stream in the stream itself. This is used in **[Jelly-JVM](../jelly_jvm)** to automatically check for stream type compatibility and apply conversions if needed.
+RDF-STaX is being used in **[RiverBench]({% link _projects/riverbench.md %})** to describe and validate the stream types of benchmark datasets. It is also used in **[Jelly]({% link _projects/jelly.md %})** to easily embed metadata about the type of the stream in the stream itself. This is used in **[Jelly-JVM]({% link _projects/jelly_jvm.md %})** to automatically check for stream type compatibility and apply conversions if needed.
 
 - **Find out more on the RDF-STaX website: [https://w3id.org/stax/](https://w3id.org/stax/)**
 - GitHub: [https://github.com/RDF-STaX](https://github.com/RDF-STaX)
