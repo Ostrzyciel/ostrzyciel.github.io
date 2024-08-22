@@ -8,7 +8,7 @@ category: Knowledge graphs
 related_publications: true
 ---
 
-- **[Find out more on Jelly-JVM's website](https://jelly-rdf.github.io/jelly-jvm/dev/)**
+- **[Find out more on Jelly-JVM's website](https://w3id.org/jelly/jelly-jvm/dev/)**
 - GitHub: [https://github.com/Jelly-RDF/jelly-jvm](https://github.com/Jelly-RDF/jelly-jvm)
 - A paper on the newest version of Jelly-JVM is in preparation. Stay tuned!
 - Paper on an older version of Jelly: {% cite sowinski2022efficient %}

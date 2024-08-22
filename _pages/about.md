@@ -22,6 +22,6 @@ Hi! I'm Piotr, a PhD student at the Warsaw University of Technology, advised by 
 
 I'm a strong supporter of open science and open source software, so I try to publish everything I can under free licenses. Check out the [projects](/projects/) section or my [GitHub profile](https://github.com/Ostrzyciel), maybe you will find something useful there.
 
-Most recently my focus is on making knowledge graph (RDF) streaming systems more efficient and practical. My work includes: the [RDF Stream Taxonomy](https://w3id.org/stax/), [RiverBench](https://w3id.org/riverbench/) -- an open RDF streaming benchmark suite, and [Jelly](https://jelly-rdf.github.io/dev/user-guide/) -- a super-efficient RDF streaming protocol with implementations for Apache Jena and RDF4J.
+Most recently my focus is on making knowledge graph (RDF) streaming systems more efficient and practical. My work includes: the [RDF Stream Taxonomy](https://w3id.org/stax/), [RiverBench](https://w3id.org/riverbench/) -- an open RDF streaming benchmark suite, and [Jelly](https://w3id.org/jelly/) -- a super-efficient RDF streaming protocol with implementations for Apache Jena and RDF4J.
 
 Oh, and do check out my **[blog](/blog/)**, where I write about research, programming (Python, Scala...), technology, and a few other things.

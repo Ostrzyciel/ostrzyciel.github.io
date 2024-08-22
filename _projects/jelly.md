@@ -8,7 +8,7 @@ category: Knowledge graphs
 related_publications: true
 ---
 
-- **[Find out more on Jelly's website](https://jelly-rdf.github.io/dev/)**
+- **[Find out more on Jelly's website](https://w3id.org/jelly/dev/)**
 - GitHub: [https://github.com/Jelly-RDF/jelly-protobuf](https://github.com/Jelly-RDF/jelly-protobuf)
 - A paper on the newest version of Jelly is in preparation. Stay tuned!
 - Paper on an older version of Jelly: {% cite sowinski2022efficient %}
