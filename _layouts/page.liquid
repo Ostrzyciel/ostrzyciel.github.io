@@ -4,13 +4,8 @@ layout: default
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-description mb-0">{{ page.description }}</p>
-    <p class="mb-4">
-      <a href="../">&lt;~&nbsp;&nbsp;Go back</a>
-    </p>
+    <p class="post-description">{{ page.description }}</p>
   </header>
-
-  <hr>
 
   <article>
     {{ content }}
@@ -19,7 +14,7 @@ layout: default
   {% if page.related_publications %}
     <h2>References</h2>
     <div class="publications">
-      {% bibliography --cited_in_order --group_by none %}
+      {% bibliography --cited_in_order %}
     </div>
   {% endif %}
 

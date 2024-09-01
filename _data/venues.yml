@@ -1,24 +1,9 @@
-# "AJP":
-#   url: https://aapt.scitation.org/journal/ajp
-#   color: "#00369f"
+"AJP":
+  url: https://aapt.scitation.org/journal/ajp
+  color: "#00369f"
 
-# "PhysRev":
-#   url: https://journals.aps.org/
+"PhysRev":
+  url: https://journals.aps.org/
 
-# "Vision":
-#   color: "#009f36"
-
-Electronics:
-  color: "#e92063"
-
-Sensors:
-  color: "#e92063"
-
-"Applied Sciences":
-  color: "#e92063"
-
-"Book chapter":
-  color: "#009485"
-
-arXiv:
-  color: "#546d78"
+"Vision":
+  color: "#009f36"
