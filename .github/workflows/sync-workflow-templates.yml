@@ -15,6 +15,9 @@ jobs:
       # To use this repository's private action, you must check out the repository
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.SYNC_WORKFLOWS_PAT }}
+        
       - name: actions-template-sync
         uses: AndreasAugustin/actions-template-sync@v2
         with:
