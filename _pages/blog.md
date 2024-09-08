@@ -101,6 +101,10 @@ pagination:
 
 {% endif %}
 
+<div style="margin-top: 0.8em; padding-bottom: 1.2em; border-bottom: 1px rgba(0, 0, 0, 0.5) solid;">
+{%include atom_widget.liquid %}
+</div>
+
   <ul class="post-list">
 
     {% if page.pagination.enabled %}
