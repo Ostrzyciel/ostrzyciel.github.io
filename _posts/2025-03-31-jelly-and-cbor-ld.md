@@ -9,7 +9,7 @@ thumbnail: assets/img/blog/2025/jelly_and_cbor_ld.png
 related_publications: false
 ---
 
-I've recently learned about CBOR-LD (see [presentation](https://docs.google.com/presentation/d/1ksh-gUdjJJwDpdleasvs9aRXEmeRvqhkVWqeitx5ZAE/)), a binary version of [JSON-LD](https://json-ld.org/) with advanced compression mechanisms to make the serialized representation as small as possible. From what I understand, the main use case for CBOR-LD are QR codes and NFC tags, where the reducing size of the data is crucial.
+I've recently learned about CBOR-LD (see [presentation](https://docs.google.com/presentation/d/1ksh-gUdjJJwDpdleasvs9aRXEmeRvqhkVWqeitx5ZAE/)), a binary version of [JSON-LD](https://json-ld.org/) with advanced compression mechanisms to make the serialized representation as small as possible. From what I understand, the main use case for CBOR-LD are QR codes and NFC tags, where reducing the size of data is crucial.
 
 This got me really interested, because I maintain [Jelly](https://w3id.org/jelly), also a binary RDF format. Jelly, however, focuses on very high read-write performance, and while it is pretty compact, I would not expect it to be comparable to CBOR-LD in terms of size.
 
@@ -66,7 +66,7 @@ My explanation is probably not very accurate, so I recommend you check out the [
 
 That's really a story for a few other blogposts! 😆 But, in short, [Jelly](https://w3id.org/jelly) is much closer to more traditional RDF formats (like [Turtle](https://www.w3.org/TR/turtle/)) than CBOR-LD. Internally, it looks a lot like an N-Triples/N-Quads file (just a long list of triples), but the triples are interspersed with dictionary entries. 
 
-For example, if we are going to use the IRI `http://xmlns.com/foaf/0.1/knows`, we put the prefix `http://xmlns.com/foaf/0.1/` in the prefix lookup under, say, ID 4, and then we put the string `knows` in the name lookup under ID 2. The IRI then looks like this: `RdfIri(4, 2)`. The lookups are updated as we go along through the stream, evicting old entries if needed. They are sent via the same byte stream as the triples/quads, so you get the entire type in one file – just like in Turtle or N-Triples.
+For example, if we are going to use the IRI `http://xmlns.com/foaf/0.1/knows`, we put the prefix `http://xmlns.com/foaf/0.1/` in the prefix lookup under, say, ID 4, and then we put the string `knows` in the name lookup under ID 2. The IRI then looks like this: `RdfIri(4, 2)`. The lookups are updated as we go along through the stream, evicting old entries if needed. They are sent via the same byte stream as the triples/quads, so you get the entire data in one file – just like in Turtle or N-Triples.
 
 There are also a few other techniques used, including compressing repeating terms and some tricks with differential compression of lookup references... You can find the [full spec on Jelly's website](https://jelly-rdf.github.io/dev/specification/serialization/), if you are interested. The nice part about it is that it's very fast, works automatically with any RDF data (no need to think about contexts), can handle data of any size (with bounded memory!), and is sufficiently compact for most use cases.
 
