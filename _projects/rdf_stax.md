@@ -4,7 +4,7 @@ title: RDF Stream Taxonomy
 description: RDF-STaX organizes RDF stream types and provides a common vocabulary for describing them.
 img: assets/img/projects/rdf_stax.png
 importance: 1
-category: Knowledge graphs
+category: Knowledge graph streams
 related_publications: true
 ---
 

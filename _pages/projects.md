@@ -2,10 +2,10 @@
 layout: page
 title: Projects & software
 permalink: /projects/
-description: Some of the projects and software I have been working on. The list is incomplete, more projects will be added soon.
+description: Some of the projects and software I have been working on. The list is incomplete, mostly focusing on my recent work on KG streaming.
 nav: true
 nav_order: 3
-display_categories: ["Knowledge graphs", Other]
+display_categories: [Jelly, "Knowledge graph streams"]
 horizontal: false
 ---
 

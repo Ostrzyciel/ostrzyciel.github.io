@@ -4,7 +4,7 @@ title: Jelly-JVM
 description: Jelly-JVM is a blazing-fast implementation of the Jelly streaming protocol for the Java Virtual Machine
 img: assets/img/projects/jelly_jvm.png
 importance: 4
-category: Knowledge graphs
+category: Jelly
 related_publications: true
 ---
 

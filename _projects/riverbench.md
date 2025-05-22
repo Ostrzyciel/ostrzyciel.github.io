@@ -4,7 +4,7 @@ title: RiverBench
 description: RiverBench is an open RDF streaming benchmark suite that can be used for a wide range of benchmarking tasks
 img: assets/img/projects/riverbench.png
 importance: 2
-category: Knowledge graphs
+category: Knowledge graph streams
 related_publications: true
 ---
 

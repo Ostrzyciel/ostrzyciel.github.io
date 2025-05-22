@@ -4,7 +4,7 @@ title: Jelly
 description: Jelly is a high-performance RDF serialization format and streaming protocol
 img: assets/img/projects/jelly.png
 importance: 3
-category: Knowledge graphs
+category: Jelly
 related_publications: true
 ---
 
