@@ -21,14 +21,6 @@ nav_order: 2
 
 <div class="publications">
 
-<h1>Preprints</h1>
-
-<!-- all params listed here: https://github.com/inukshuk/jekyll-scholar/blob/main/lib/jekyll/scholar/defaults.rb -->
-
-{% bibliography --group_by none --query @*[abbr=arXiv] %}
-
-<h1>Published &amp; in press</h1>
-
-{% bibliography --query @*[abbr!=arXiv] %}
+{% bibliography %}
 
 </div>
