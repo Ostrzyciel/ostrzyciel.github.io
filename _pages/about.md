@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi! I'm Piotr, co-founder and CTO of **[NeverBlink](https://neverblink.eu)**, where we build next-generation knowledge graph and neurosymbolic systems. We've created [Jelly](https://w3id.org/jelly/), a super-efficient RDF knowledge graph streaming protocol, with implementations for [Apache Jena, RDF4J](https://w3id.org/jelly/jelly-jvm) and [rdflib](https://w3id.org/jelly/pyjelly). Check out the **[projects section](/projects/)** or my [GitHub profile](https://github.com/Ostrzyciel), maybe you will find something useful there.
+Hi! I'm Piotr, co-founder and CTO of **[NeverBlink](https://neverblink.eu)**, where we build next-generation knowledge graph and neurosymbolic systems. We've created [Jelly](https://w3id.org/jelly/), a super-efficient RDF knowledge graph streaming protocol. We also made [LinkML-Scala](https://github.com/NeverBlink-OSS/linkml-scala), a fast, portable (JS/JVM/native), and robust implementation of LinkML for cross-language data modeling. Check out the **[projects section](/projects/)**, maybe you will find something useful there.
 
 I'm also finishing my PhD at the Warsaw University of Technology, advised by [Maria Ganzha](https://pages.mini.pw.edu.pl/~ganzham/www/). In 2024 I did a research visit at TU Berlin's [PICOM lab](https://picom.ai/), under the supervision of [Danh Le Phuoc](https://danhlephuoc.info/). You can find out more about my research in the [publications section](/publications/).
 

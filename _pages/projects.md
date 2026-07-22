@@ -2,10 +2,10 @@
 layout: page
 title: Projects & software
 permalink: /projects/
-description: Some of the projects and software I have been working on. The list is incomplete, mostly focusing on my recent work on KG streaming.
+description: Some of the projects and software I work or have worked on. The more recent projects were all done as part of NeverBlink, with several of our great devs contributing to them.
 nav: true
 nav_order: 3
-display_categories: [Jelly, "Knowledge graph streams"]
+display_categories: [LinkML, Jelly, "Knowledge graph streams"]
 horizontal: false
 ---
 
